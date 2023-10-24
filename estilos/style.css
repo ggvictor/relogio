@@ -2,9 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border:none;
 }
 body{
-    background-color: black;
+    background-image: linear-gradient(45deg, #23294C, #0D1233);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,10 +13,10 @@ body{
 
 
 #container{
-
     font-size: 22px;
     height: 100vh;
     display: flex;
+    width:100vw;
     align-items: center;
     justify-content: space-around;
     background-image: linear-gradient(45deg, #23294C, #0D1233);
