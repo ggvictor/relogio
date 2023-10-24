@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relogio Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="relogio()">
+    
+    <div id="container">
+        <div class="Relogio">
+            <div class="numero">
+                <span id="horas">00</span>
+                <span >:</span>
+                <span id="minutos">00</span>
+                <span>:</span>
+                <span id="segundos">00</span>
+            </div>
+        </div> 
+    </div>
+    <script >
+        
+        let hrs = document.getElementById("horas")
+        let min = document.getElementById("minutos")
+        let seg = document.getElementById("segundos")
+        setInterval(() =>{
+            let data = new Date();
+            hrs.innerHTML = data.getHours();
+            min.innerHTML= data.getMinutes();
+            seg.innerHTML = data.getSeconds();
+
+    },1000)
+  
+    </script>
+</body>
+</html>
