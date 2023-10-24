@@ -1,0 +1,10 @@
+@media only screen and (max-width:550px){
+    .numero span {
+        font-size: 8vw;
+    }
+
+    .numero span::after {
+        font-size: 3vw;
+    }
+
+}
