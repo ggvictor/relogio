@@ -30,6 +30,7 @@ body{
    
 }
 .numero{
+    
     font-size:10vw;
     border-radius: 16px;
     width: 100%;
@@ -43,6 +44,7 @@ body{
     
 }
 .numero span{
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     width: 110px;
